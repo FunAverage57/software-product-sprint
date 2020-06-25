@@ -76,20 +76,6 @@ public final class DataServlet extends HttpServlet {
     }
     return value;
   }
-
-  /*private String convertToJson(ArrayList list) {
-    String json = "{";
-    json += "\"simpleEnglish\": ";
-    json += "\"" + list.get(0) + "\"";
-    json += ", ";
-    json += "\"longEnglish\": ";
-    json += "\"" + list.get(1) + "\"";
-    json += ", ";
-    json += "\"spanish\": ";
-    json += "\"" + list.get(2) + "\"";
-    json += "}";
-    return json;
-  }*/
 }
 
 
