@@ -1,18 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
-    </div>
-  </body>
+    <head>
+        <title>Victor's Portfolio</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="nav__links">
+                    <button onclick="">Projects</button>
+                    <div id=""></div>
+                </ul>
+            </nav>
+            <li>Victor's Portfolio</li>
+            <a><button onclick="getHello()">Contact</button>
+            <div id="hello-container"></div></a>
+        </header>
+        <div id="content">
+            <br>
+            <br>
+            <br>
+            <h1>About me</h1>
+            <p> Hi my name is Victor Zapata III, I was born and raised in New York City. Currently I am a student attending Pace University aiming to earn my Bacholar of Science in Computer Science.
+                I have about 4 years of experience using Java from personal project and educational work, which includes making a simple game, and modifying an existing game. 
+            </p>
+                <form action="/data" method="POST">
+
+                    <p>Enter in your comments in the box below:</p>
+                    <textarea name="text-input"></textarea>
+                    <br/><br/>
+                    <input type="submit" />
+                </form>
+      <p>Projects:</p>
+      <p>Minecraft Map Projects</p>
+      <p>Five Nights at Freddy's Multiplayer Map</p>
+      <img src="images/office.PNG" style="width:1000px;height:600px;"/>
+      <img src="images/bonnie.PNG" style="width:1000px;height:600px;"/>
+      <img src="images/foxy.PNG" style="width:1000px;height:600px;"/>
+      <img src="images/Command Blocks.PNG" style="width:1000px;height:600px;"/>
+      <p>This map is based on the popular game series Five Nights at Freddy's by Scott Cawthon. This map is a playable and multiplayer verison of the first game of the series. This is actually my third time remaking the map, where changes I made included updated textures, AI animatronics, and better usage of command block and redstone (which included the game making, and in-game support)</p>
+      <p>Castle Wars 2.0</p>
+      <img src="images/castle wars.PNG" style="width:1000px;height:600px;"/>
+      <img src="images/center.PNG" style="width:1000px;height:600px;"/>
+      <img src="images/generators.PNG" style="width:1000px;height:600px;"/>
+      <img src="images/trader.PNG" style="width:1000px;height:600px;"/>
+      <img src="images/beacon.PNG" style="width:1000px;height:600px;"/>
+      <p>Mini-game maps where there two teams who spend time collecting gems and trade it with villagers to get items for battle and conquer the enemy's castle by destroying the other team beacon and defeating all the other team. This game originally came from a popular Minecraft Mini-Game that played on multiplayer servers called Bed Wars where it a similar concept. I made the map, to make the game using in-game minecraft tools, and not addition plugin. Many of the complicated things include the gem generators, where gems spawn on these generators and the players are allow to be upgraded to faster rates of spawning. The map also includes custom Villager mob, which they allow to have a trade interface which can be completely customize using commands, and their AI can be disabled by commands.</p>
+      <p>Minecraft Mods</p>
+      <p>Custom Weapons Mod</p>
+      <img src= "images/weapons.PNG" style="width:1000px;height:600px;"/>
+      <img src= "images/ore.PNG" style="width:1000px;height:600px;"/>
+      <p>This project is my longest project. This project original started as a texture pack, where I made different sword, axes and tools and applied them over original items in Minecraft. Then because I was adding way too much items, I switch to making it into a mod. Where I could add in the weapon as legitimate items in the game. Also include other custom items and custom crafting weapons to make my items obtainable in survival mode. It included custom ore generation so any blocks I made to get ores to make the weapons actually spawn in the ground around the world. Currently this project on a break from last summer. </p>
+      <p>Coding Projects</p>
+      <p>AP Computer Science Final Project</p>
+      <img src="images/Fire Emblem Valient.PNG" style="width:1000px;height:600px;"/>
+      <img src="images/Character Select.PNG" style="width:1000px;height:600px;"/>
+      <img src="images/Map.PNG" style="width:1000px;height:600px;"/>
+      <img src="images/battle.PNG" style="width:1000px;height:600px;"/>
+      <img src="images/win.PNG" style="width:1000px;height:600px;"/>
+      <p>This project was originally suppose to be a side scrolling game, however me and my partner decided against that and made a game where you can select different characters, and battle in a 2D plan, where enemies have basic AI and move around the map. Battles in the game were represented in a Rock, Paper, Scissor system and was shown by basic animation. Some of the things I contributed was making the title screen, character select screen, controls in both of these screen, I also included methods to make the screen full screen automatic and close by it self, which weren't included in the starter code. I also made the 2D animations, and helped with how the AI logic worked. As well as other small things.</p>
+      <p>Some of things I enjoy doing, is playing games, and building legos. I actually really good at building legos that 1000+ piece set I can finish in about 5 hours, given no interuptions and I'm focus. I enjoy looking at New York City skyline. In terms of Lego set I have a small New York City skyline set, which includes Empire State Building, Statue of Liberty, Crystaler Building, Flatiron Building and One World Trade Center, and in addition to that bigger lego models of the Empire State Building and Statue of Liberty. I also generally like model building. I have a plastic model of One World Trade Center in my room and when I was younger I had a paper model of the original and new World Trade Center.</p>
+      <p>Below is a link to github.<br>https://github.com/FunAverage57/</p>
+      <p>Below is just random images of stuff I like or I feel like explain what I am into</p>
+      <p>This is Greninja, one of my favorite Pokemon.</p>
+      <img src="images/Greninja.png" style="width:1000px;height:600px;"/>
+      <p>This is my older cat Peanut, he passed away March 2020.</p>
+      <img src="images/IMG_5016.JPG" style="width:1000px;height:600px;"/>
+      <p>This is my younger cat Chocolate, he loves a lot of attention, and this is an adorable picture of him.</p>
+      <img src="images/IMG_5040.JPG" style="width:1000px;height:600px;"/>
+      <p>This is a picture of the before mention Lego Statue of Liberty model, along with the Lego New York City Skyline set.</p>
+      <img src="images/IMG_5021.JPG" style="width:1000px;height:1200px;"/>
+      <p>This is a picture of my Nintendo Switch, I spend way too much money to get those joy con colors, which blue and green are my favorite and second favorite colors. Also something is wrong with the image, see if you notice it.</p>
+      <img src="images/IMG_5031.JPG" style="width:1000px;height:600px;"/>
+      <p>This is a painting done for one of my classes of downtown Manhattan skyline.</p>
+      <img src="images/IMG_5132.JPG" style="width:1000px;height:600px;"/>
+        </div>
+    </body>
 </html>
